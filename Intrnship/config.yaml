@@ -1,0 +1,13 @@
+daemon:
+  port: 8001
+  host: localhost
+logging:
+  level: info
+reports:
+  format: pdf
+  renderer: xhtml2pdf
+  cacheDir: ~/.pebblo
+classifier:
+  anonymizeSnippets: True
+storage:
+  type: file
