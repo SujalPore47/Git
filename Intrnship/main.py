@@ -1,3 +1,4 @@
+#Changes are made 
 import chainlit as cl
 from langchain.prompts import ChatPromptTemplate, MessagesPlaceholder
 from langchain_community.document_loaders.image import UnstructuredImageLoader
@@ -8,6 +9,7 @@ from langchain.schema.runnable import Runnable
 from langchain.schema.runnable.config import RunnableConfig
 from dotenv import load_dotenv
 load_dotenv()
+ 
 google_api_key = os.getenv("GOOGLE_API_KEY")
  
 
